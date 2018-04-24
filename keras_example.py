@@ -7,7 +7,7 @@ numpy.random.seed(7)
 
 #Load data
 #===========================================================================
-dataset = numpy.loadtxt("/home/sam/Downloads/pima-indians-diabetes.csv", delimiter=",")
+dataset = numpy.loadtxt("pima-indians-diabetes.csv", delimiter=",")
 X = dataset[:,0:8]
 Y = dataset[:,8]
 
